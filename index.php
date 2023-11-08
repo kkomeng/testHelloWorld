@@ -88,8 +88,8 @@
     <form method="POST" action="<?php echo es($_SERVER['PHP_SELF']); ?>">
       <ul>
         <li><span>食事：</span>
-          <label><input type="checkbox" name="meal[]" value="朝食" <?php checked("朝食", $mealChecked); ?>>朝食</label>
-          <label><input type="checkbox" name="meal[]" value="夕食" <?php checked("夕食", $mealChecked); ?>>夕食</label>
+          <label><input type="checkbox" name="meal[]" value="朝食" <?php checked("breakfast", $mealChecked); ?>>朝食</label>
+          <label><input type="checkbox" name="meal[]" value="夕食" <?php checked("dinner", $mealChecked); ?>>夕食</label>
         </li>
         <li><span>ツアー：</span>
           <label><input type="checkbox" name="tour[]" value="カヌー" <?php checked("カヌー", $tourChecked); ?>>カヌー</label>
